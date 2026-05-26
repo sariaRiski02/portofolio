@@ -113,7 +113,10 @@
                 </div>
             </div>
             <div class="flex-1 flex justify-center z-10">
-                <img src="img/riskisaria.jpg" alt="Your Name" class="rounded-full w-64 h-64 object-cover border-4 border-blue-500 shadow-2xl hover:scale-105 transition-transform duration-300 animate-fade-in-up delay-200">
+                <div class="relative group">
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition-opacity duration-500 animate-pulse"></div>
+                    <img src="img/rizky.png" alt="Your Name" class="relative rounded-full w-64 h-64 object-cover border-4 border-blue-500 shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 animate-fade-in-up delay-200 hover:scale-110 filter brightness-110 contrast-125 saturate-120 hover:brightness-125">
+                </div>
             </div>
         </div>
     </section>
@@ -702,6 +705,17 @@ document.addEventListener('DOMContentLoaded', aboutTypeWriter);
     @keyframes gradient-x {
         0%, 100% { background-position: left center; }
         50% { background-position: right center; }
+    }
+    @keyframes profile-float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+    }
+    @keyframes glow-pulse {
+        0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.5), 0 0 40px rgba(168, 85, 247, 0.3); }
+        50% { box-shadow: 0 0 30px rgba(59, 130, 246, 0.8), 0 0 60px rgba(168, 85, 247, 0.5); }
+    }
+    .profile-animate {
+        animation: profile-float 3s ease-in-out infinite, glow-pulse 2s ease-in-out infinite;
     }
     @keyframes blink {
         0%, 100% { opacity: 1; }

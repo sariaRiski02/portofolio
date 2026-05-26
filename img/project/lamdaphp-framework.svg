@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="40" fill="url(#grad4)"/>
+  <rect x="60" y="70" width="480" height="260" rx="34" fill="rgba(255,255,255,0.16)" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <path d="M140 140h320v40H140zM140 210h260v40H140zM140 280h200v24H140z" fill="rgba(255,255,255,0.85)"/>
+  <text x="50%" y="362" text-anchor="middle" font-family="Inter, sans-serif" font-size="34" fill="#fff" font-weight="700">LamdaPHP</text>
+</svg>

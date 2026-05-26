@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="40" fill="url(#grad3)"/>
+  <rect x="80" y="90" width="440" height="220" rx="24" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.35)" stroke-width="2"/>
+  <path d="M130 150h340v34H130zM130 210h220v34H130z" fill="rgba(255,255,255,0.8)"/>
+  <circle cx="190" cy="294" r="18" fill="#fff" opacity="0.85"/>
+  <circle cx="260" cy="294" r="18" fill="#fff" opacity="0.85"/>
+  <circle cx="330" cy="294" r="18" fill="#fff" opacity="0.85"/>
+  <text x="50%" y="370" text-anchor="middle" font-family="Inter, sans-serif" font-size="34" fill="#fff" font-weight="700">Cashier</text>
+</svg>

@@ -127,19 +127,19 @@
             <div class="grid md:grid-cols-2 gap-8">
                 <div>
                     <p class="text-gray-100 mb-4 about-fade animate-fade-in-up delay-100">
-                        Hello! I'm <span class="font-bold bg-gradient-to-r from-blue-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-gradient-x">Rizky Saria</span>, an enthusiastic <span class="font-semibold text-blue-400">informatics engineering student</span> born in <span class="font-semibold text-pink-400">September 2002</span>.
+                        Hello! I'm <span class="font-bold bg-gradient-to-r from-blue-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-gradient-x">Rizky Saria</span>, an informatics engineering student who enjoys solving real problems with clean web applications.
                     </p>
                     <p class="text-gray-100 mb-4 about-fade animate-fade-in-up delay-200">
-                        I am currently honing my skills in <span class="font-semibold text-purple-400">web development</span>, driven by a strong belief in the potential of the web to solve many problems efficiently.
+                        Right now I am sharpening my skills in <span class="font-semibold text-purple-400">web development</span>, especially building practical systems with good structure and low drama.
                     </p>
                     <p class="text-gray-100 mb-4 about-fade animate-fade-in-up delay-300">
-                        The web's ability to operate across all platforms without the need for multiple app installations makes it incredibly versatile. Imagine the inconvenience if every service required its own app—this would consume significant memory space on our devices. The web, however, offers a seamless, efficient solution.
+                        My final project is <span class="font-semibold text-blue-400">LamdaPHP Framework</span>, a lightweight PHP MVC framework I created for my tugas akhir. It is the kind of project where I got to design the architecture first, then enjoy the code after.
                     </p>
                     <p class="text-gray-100 mb-4 about-fade animate-fade-in-up delay-400">
-                        While I advocate for web solutions, I also recognize that advanced web applications can sometimes benefit from being developed into mobile applications for enhanced functionality and user experience.
+                        I am very interested in software architecture and design, because a good structure makes development faster, less chaotic, and a little more fun.
                     </p>
-                    <p class="text-gray-100 mb-4 about-fade animate-fade-in-up delay-500">
-                        Feel free to explore my portfolio and projects. If you have any questions or collaboration ideas, don't hesitate to reach out!
+                    <p class="text-gray-100 mb-4 about-fade animate-fade-in-up delay-450">
+                        Explore my projects and reach out if you want to collaborate on something smart, tidy, and ready for real use.
                     </p>
                 </div>
                 <div class="w-full flex justify-center animate-fade-in-up delay-200">
@@ -173,7 +173,7 @@
             </div>
             <div class="skill-card bg-gray-700/70 backdrop-blur-md p-4 rounded-xl flex flex-col items-center shadow-lg transition-all duration-300 animate-skill-fade-in delay-100">
                 <div class="skill-icon-wrapper relative flex items-center justify-center">
-                    <img src="img/skill/javascript.svg" alt="" width="50px" class="skill-icon transition-transform duration-500">
+                    <img src="img/skill/Javascript.svg" alt="JavaScript" width="50px" class="skill-icon transition-transform duration-500">
                     <span class="skill-shine"></span>
                 </div>
                 <span>JavaScript</span>
@@ -227,6 +227,20 @@
                 </div>
                 <span class="pt-2">Node.js</span>
             </div>
+            <div class="skill-card bg-gray-700/70 backdrop-blur-md p-4 rounded-xl flex flex-col items-center shadow-lg transition-all duration-300 animate-skill-fade-in delay-500">
+                <div class="skill-icon-wrapper relative flex items-center justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" alt="Docker" width="50px" class="skill-icon transition-transform duration-500">
+                    <span class="skill-shine"></span>
+                </div>
+                <span class="pt-2">Docker (Learning)</span>
+            </div>
+            <div class="skill-card bg-gray-700/70 backdrop-blur-md p-4 rounded-xl flex flex-col items-center shadow-lg transition-all duration-300 animate-skill-fade-in delay-550">
+                <div class="skill-icon-wrapper relative flex items-center justify-center">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" width="50px" class="skill-icon transition-transform duration-500">
+                    <span class="skill-shine"></span>
+                </div>
+                <span class="pt-2">Vue.js (Learning)</span>
+            </div>
         </div>
     </div>
 </section>
@@ -235,162 +249,260 @@
     <section id="projects" class="py-16">
         <div class="max-w-screen-xl mx-auto px-4">
             <h2 class="text-3xl font-bold mb-8 animate-fade-in-up">Projects</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-fr" id="project-list">
-                <!-- Project Card -->
-                <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up">
-                    <a href="https://github.com/sariaRiski02/AksaraDiskret">
-                        <img class="rounded-t-2xl" src="img/project/akasaradiskert.png" alt="Project 1" />
-                    </a>
-                    <div class="p-5">
+            <div id="project-list">
+                <p class="text-gray-400 mb-6">Live projects are placed first, and LamdaPHP Framework is highlighted as the first project in the portfolio.</p>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-fr">
+                    <div class="max-w-sm relative bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-100">
+                        <div class="project-badge project-badge-final">Tugas Akhir</div>
+                        <a href="https://github.com/sariaRiski02/lamdaphp-framework">
+                            <img class="rounded-t-2xl" src="img/project/lamdaphp-framework.svg" alt="Lamdaphp Framework" />
+                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/lamdaphp-framework">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    LamdaPHP Framework
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Tugas akhir saya: framework PHP ringan dengan konsep MVC yang saya bangun dengan bangga.</p>
+                            <a href="https://github.com/sariaRiski02/lamdaphp-framework" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="max-w-sm relative bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-150">
+                        <div class="project-badge">Live</div>
+                        <a href="https://pangi.poltekkes-manado.ac.id">
+                            <img class="rounded-t-2xl" src="img/project/pangi-app.svg" alt="Pangi Portal" />
+                        </a>
+                        <div class="p-5">
+                            <a href="https://pangi.poltekkes-manado.ac.id">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    Pangi Portal
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Live portal untuk Poltekkes Manado dengan login dan manajemen event.</p>
+                            <a href="https://pangi.poltekkes-manado.ac.id" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                Visit Site
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="max-w-sm relative bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-200">
+                        <div class="project-badge">Live</div>
+                        <a href="https://rekrutmen.poltekkes-manado.ac.id">
+                            <img class="rounded-t-2xl" src="img/project/rekrutmen.svg" alt="Rekrutmen Portal" />
+                        </a>
+                        <div class="p-5">
+                            <a href="https://rekrutmen.poltekkes-manado.ac.id">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    Rekrutmen Portal
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Recruitment system untuk Poltekkes Manado dengan alur seleksi kandidat.</p>
+                            <a href="https://rekrutmen.poltekkes-manado.ac.id" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                Visit Site
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-250">
+                        <a href="https://github.com/sariaRiski02/my-cashier">
+                            <img class="rounded-t-2xl" src="img/project/my-cashier.svg" alt="Cashier App" />
+                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/my-cashier">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    Aplikasi Kasir
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Kasir web app untuk transaksi penjualan, inventaris, dan laporan penjualan.</p>
+                            <a href="https://github.com/sariaRiski02/my-cashier" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-300">
+                        <a href="https://github.com/sariaRiski02/pangi-app">
+                            <img class="rounded-t-2xl" src="img/project/pangi-app.svg" alt="Pangi App" />
+                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/pangi-app">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    Pangi App
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Event registration and management platform for Poltekkes Manado.</p>
+                            <a href="https://github.com/sariaRiski02/pangi-app" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-350">
                         <a href="https://github.com/sariaRiski02/AksaraDiskret">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                                Aksara Diskret
-                            </h5>
+                            <img class="rounded-t-2xl" src="img/project/akasaradiskert.png" alt="Aksara Diskret" />
                         </a>
-                        <p class="mb-3 font-normal text-gray-400">Free Book Sharing Website.</p>
-                        <a href="https://github.com/sariaRiski02/AksaraDiskret" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
-                            View Project
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/AksaraDiskret">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    Aksara Diskret
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Free Book Sharing Website.</p>
+                            <a href="https://github.com/sariaRiski02/AksaraDiskret" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </div>            
-                <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-50">
-                    <a href="https://github.com/sariaRiski02/Pucuk-Pena">
-                        <img class="rounded-t-2xl" src="img/project/pucukpena.png" alt="Project 1" />
-                    </a>
-                    <div class="p-5">
+                    <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-400">
                         <a href="https://github.com/sariaRiski02/Pucuk-Pena">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                                Pucukpena
-                            </h5>
+                            <img class="rounded-t-2xl" src="img/project/pucukpena.png" alt="Pucukpena" />
                         </a>
-                        <p class="mb-3 font-normal text-gray-400">Free Book Sharing Website.</p>
-                        <a href="https://github.com/sariaRiski02/Pucuk-Pena" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
-                            View Project
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/Pucuk-Pena">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    Pucukpena
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Free Book Sharing Website.</p>
+                            <a href="https://github.com/sariaRiski02/Pucuk-Pena" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-100">
-                    <a href="https://github.com/sariaRiski02/api-resource">
-                        <img class="rounded-t-2xl" src="img/project/api-png.png" alt="Project 1" />
-                    </a>
-                    <div class="p-5">
+                    <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-450">
                         <a href="https://github.com/sariaRiski02/api-resource">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                                API using Laravel
-                            </h5>
+                            <img class="rounded-t-2xl" src="img/project/api-png.png" alt="API using Laravel" />
                         </a>
-                        <p class="mb-3 font-normal text-gray-400">Api Resource.</p>
-                        <a href="https://github.com/sariaRiski02/api-resource" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
-                            View Project
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/api-resource">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    API using Laravel
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Api Resource.</p>
+                            <a href="https://github.com/sariaRiski02/api-resource" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-150">
-                    <a href="https://github.com/sariaRiski02/belajar-Restfull-API">
-                        <img class="rounded-t-2xl" src="img/project/rest-api.png" alt="Project 1" />
-                    </a>
-                    <div class="p-5">
+                    <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-500">
                         <a href="https://github.com/sariaRiski02/belajar-Restfull-API">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                                Restfull-API using Laravel.
-                            </h5>
+                            <img class="rounded-t-2xl" src="img/project/rest-api.png" alt="Restfull-API using Laravel" />
                         </a>
-                        <p class="mb-3 font-normal text-gray-400">Using Open-API as the Documentation</p>
-                        <a href="https://github.com/sariaRiski02/belajar-Restfull-API" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
-                            View Project
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/belajar-Restfull-API">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    Restfull-API using Laravel.
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Using Open-API as the Documentation</p>
+                            <a href="https://github.com/sariaRiski02/belajar-Restfull-API" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-200">
-                    <a href="https://github.com/sariaRiski02/todolist-api">
-                        <img class="rounded-t-2xl" src="img/project/todolist-vert.png" alt="Project 1" />
-                    </a>
-                    <div class="p-5">
+                    <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-550">
                         <a href="https://github.com/sariaRiski02/todolist-api">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                                API Todo-List.
-                            </h5>
+                            <img class="rounded-t-2xl" src="img/project/todolist-vert.png" alt="API Todo-List" />
                         </a>
-                        <p class="mb-3 font-normal text-gray-400">Maked api todolist</p>
-                        <a href="https://github.com/sariaRiski02/todolist-api" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
-                            View Project
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/todolist-api">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    API Todo-List.
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Maked api todolist</p>
+                            <a href="https://github.com/sariaRiski02/todolist-api" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-250">
-                    <a href="https://github.com/sariaRiski02/kema_fish">
-                        <img class="rounded-t-2xl" src="img/project/kema_fish.png" alt="Project 1" />
-                    </a>
-                    <div class="p-5">
+                    <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-600">
                         <a href="https://github.com/sariaRiski02/kema_fish">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                               KemaFish.
-                            </h5>
+                            <img class="rounded-t-2xl" src="img/project/kema_fish.png" alt="KemaFish" />
                         </a>
-                        <p class="mb-3 font-normal text-gray-400">Learn make a simple e-commerce (under contruction)</p>
-                        <a href="https://github.com/sariaRiski02/kema_fish" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
-                            View Project
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/kema_fish">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                   KemaFish.
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Learn make a simple e-commerce (under contruction)</p>
+                            <a href="https://github.com/sariaRiski02/kema_fish" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-300">
-                    <a href="https://github.com/sariaRiski02/winangun-atas">
-                        <img class="rounded-t-2xl" src="img/project/desa_project.png" alt="Project Web Desa" />
-                    </a>
-                    <div class="p-5">
+                    <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-650">
                         <a href="https://github.com/sariaRiski02/winangun-atas">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                                Project Web Desa
-                            </h5>
+                            <img class="rounded-t-2xl" src="img/project/desa_project.png" alt="Project Web Desa" />
                         </a>
-                        <p class="mb-3 font-normal text-gray-400">Website informasi dan layanan untuk desa, fitur profil, berita, dan layanan administrasi online.</p>
-                        <a href="https://github.com/sariaRiski02/winangun-atas" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
-                            View Project
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/winangun-atas">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    Project Web Desa
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Website informasi dan layanan untuk desa, fitur profil, berita, dan layanan administrasi online.</p>
+                            <a href="https://github.com/sariaRiski02/winangun-atas" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-350">
-                    <a href="https://github.com/sariaRiski02/kema3-jaga-4">
-                        <img class="rounded-t-2xl" src="img/project/penduduk.png" alt="Project Manajemen Kependudukan" />
-                    </a>
-                    <div class="p-5">
+                    <div class="max-w-sm bg-gray-800/80 border border-gray-700 rounded-2xl shadow-xl hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 project-card animate-fade-in-up delay-700">
                         <a href="https://github.com/sariaRiski02/kema3-jaga-4">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
-                                Project Manajemen Kependudukan
-                            </h5>
+                            <img class="rounded-t-2xl" src="img/project/penduduk.png" alt="Project Manajemen Kependudukan" />
                         </a>
-                        <p class="mb-3 font-normal text-gray-400">Aplikasi web untuk mengelola data penduduk, pencatatan, dan pelaporan administrasi kependudukan.</p>
-                        <a href="https://github.com/sariaRiski02/kema3-jaga-4" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
-                            View Project
-                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-                            </svg>
-                        </a>
+                        <div class="p-5">
+                            <a href="https://github.com/sariaRiski02/kema3-jaga-4">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">
+                                    Project Manajemen Kependudukan
+                                </h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-400">Aplikasi web untuk mengelola data penduduk, pencatatan, dan pelaporan administrasi kependudukan.</p>
+                            <a href="https://github.com/sariaRiski02/kema3-jaga-4" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-blue-700 via-purple-600 to-pink-500 rounded-lg hover:from-pink-500 hover:to-blue-700 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-300">
+                                View Project
+                                <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                
-                <!-- Repeat for other projects -->
             </div>
             <div class="w-full flex justify-center items-center py-5">
                 <a href="https://github.com/sariaRiski02?tab=repositories" type="button" class="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mb-2 shadow-lg transition-all duration-300 animate-fade-in-up">
@@ -603,6 +715,23 @@ document.addEventListener('DOMContentLoaded', aboutTypeWriter);
     cursor: pointer;
     position: relative;
     overflow: hidden;
+}
+.project-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(16, 185, 129, 0.95);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.45rem 0.85rem;
+    border-radius: 9999px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
+.project-badge-final {
+    background: rgba(99, 102, 241, 0.95);
 }
 .skill-icon-wrapper {
     width: 56px;
